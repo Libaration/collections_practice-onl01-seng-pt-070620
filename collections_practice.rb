@@ -57,6 +57,7 @@ collected
 end
 
 def sum_array(array)
+<<<<<<< HEAD
   i = 0
   total = 0
   while i < array.length
@@ -76,4 +77,11 @@ def add_s(array)
 
   end
 
+=======
+  x = 0
+  total = 0
+  while x < array.length
+    x += array[x]
+  end
+>>>>>>> dc2da3b306dc2490aa5c77e6e8ee1dd209534b6e
 end
